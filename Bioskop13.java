@@ -37,5 +37,7 @@ public class Bioskop13 {
         for (int i = 0; i < penonton.length; i++) {
             System.out.println("penonton pada baris ke-" + ": " + String.join(", ", penonton[i]));
         }
+
+        
     }    
 }
