@@ -51,7 +51,7 @@ public class bioskopWithScanner13 {
                     }
                 }
             } else if (menu == 2) {
-                System.out.println("\nDaftar pennton: ");
+                System.out.println("\nDaftar penonton: ");
                 for (int i = 0; i < penonton.length; i++) {
                     for (int j = 0; j < penonton[i].length; j++) {
                         String isiKursi = (penonton[i][j] == null) ? "***" : penonton[i][j];
